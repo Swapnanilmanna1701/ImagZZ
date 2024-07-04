@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const TransformationsPage = () => {
   return (
@@ -8,4 +8,15 @@ const TransformationsPage = () => {
   )
 }
 
-export default TransformationsPage
+export default TransformationsPage;
+
+
+
+
+
+
+
+
+
+
+
