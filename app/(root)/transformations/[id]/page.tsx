@@ -1,22 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 const TransformationsPage = () => {
   return (
     <div>
-      Transformation
+      TransformationsPage
     </div>
   )
 }
 
 export default TransformationsPage;
-
-
-
-
-
-
-
-
-
-
-
