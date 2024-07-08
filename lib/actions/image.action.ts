@@ -7,8 +7,7 @@ import User from "../database/models/user.model";
 import Image from "../database/models/image.model";
 import { redirect } from "next/navigation";
 
-import { v2 as cloudinary } from 'cloudinary'
-
+import { v2 as cloudinary } from 'cloudinary';
 const populateUser = (query: any) => query.populate({
   path: 'author',
   model: User,
@@ -108,7 +107,7 @@ export async function getAllImages({ limit = 9, page = 1, searchQuery = '' }: {
       secure: true,
     })
 
-    let expression = 'folder=imaginify';
+    let expression = 'folder=ImagZZ';
 
     if (searchQuery) {
       expression += ` AND ${searchQuery}`
